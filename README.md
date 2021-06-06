@@ -14,3 +14,7 @@ The original method checks for various google's packages, and returns 0 only if 
 
 This xposed module replaces the correct method for every application that uses the Google's APIs and always returns 0.
 So there won't be anymore an annoying warning and the applications won't close themselves (except for the one that can't work without GooglePlayServices of course).
+
+### Download
+If you want to get the module, search it with your preferred xposed manager application.  
+You can also download it directly from here: https://repo.xposed.info/module/xpsd.scrayil.noplayserviceswarning
