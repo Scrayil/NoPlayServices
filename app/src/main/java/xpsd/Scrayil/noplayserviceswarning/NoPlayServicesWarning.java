@@ -10,9 +10,8 @@ import static de.robv.android.xposed.XposedHelpers.findAndHookMethod;
 
 public class NoPlayServicesWarning implements IXposedHookLoadPackage {
     public void handleLoadPackage(final XC_LoadPackage.LoadPackageParam lpparam) {
-        // The isGooglePlayServicesAvailable Method of the class: "com.google.android.gms.common.GooglePlayServicesUtilLight"
-        // is the only one that gets called.
-        // All other methods with the same name, inside other files, calls themselves, but in the end
+        // The isGooglePlayServicesAvailable Method of the class: "com.google.android.gms.common.GooglePlayServicesUtilLight" is the only one that gets called.
+        // All other methods with the same name, inside other files, call each others, but in the end
         // this is the one that is executed.
         // This method is replaced for each of the applications that uses goolge's APIs
         // Be careful, if an application can't work without google play services it might crash
