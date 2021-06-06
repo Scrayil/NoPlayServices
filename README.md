@@ -17,4 +17,4 @@ So there won't be anymore an annoying warning and the applications won't close t
 
 ### Download
 If you want to get the module, search it with your preferred xposed manager application.  
-You can also download it directly from here: https://repo.xposed.info/module/xpsd.scrayil.noplayserviceswarning
+You can also download it directly here: https://repo.xposed.info/module/xpsd.scrayil.noplayserviceswarning
