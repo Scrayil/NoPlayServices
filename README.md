@@ -12,5 +12,5 @@ In order to remove the warning and avoid applications close because the Play Ser
 class: "GooglePlayServicesUtilLight".
 The original method checks for various google's packages, and returns 0 only if there are no errors.
 
-This xposed module replaces the correct method for each of the applications that uses the Google's APIs and always returns 0.
+This xposed module replaces the correct method for every application that uses the Google's APIs and always returns 0.
 So there won't be anymore an annoying warning and the applications won't close themselves (except for the one that can't work without GooglePlayServices of course).
