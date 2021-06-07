@@ -8,8 +8,8 @@ android {
         applicationId "xpsd.Scrayil.noplayserviceswarning"
         minSdkVersion 15
         targetSdkVersion 30
-        versionCode 1
-        versionName "1.0"
+        versionCode 2
+        versionName "1.01"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -23,7 +23,7 @@ android {
 }
 
 repositories {
-    jcenter();
+    jcenter()
 }
 
 dependencies {
