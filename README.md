@@ -13,18 +13,19 @@ So there won't be anymore an annoying warning and the applications won't close t
 
 ---
 ## Activation Scope (For this module)
-* The module has a global scope only if the **activation scope** is disabled.  
+* The module has a global scope if the **activation scope** is disabled.  
 "Global" means that once the module has been enabled, all the installed applications that contains the Google APIs are targeted.  
-* You can freely change your targets without rebooting, as rebooting is necessary only while enabling or disabling the scope.  
+* You can freely change your targets without rebooting, as rebooting is necessary only while enabling or disabling the module. 
 
 **Note:** Once you add or remove an application from the scope, you may not notice any change if the application is already open, close and reopen it to see the changes.  
 
 
 #### Edxposed:
+If the activation scope is enabled but there are no applications selected as targets, the scope is still global.
 If you prefere to enable the module only for certain applications:
 1. In the module section of EdXposed Manager select the module and tap on "Activation Scope"  
-2. Enable the activation scope, choose the target applications and reboot your phone.  
-3. You can freely change your targets without rebooting, as rebooting is necessary only while enabling or disabling the scope.
+2. Enable the activation scope  
+3. Choose the target applications.
 
 #### LSPosed:
 The activation scope is automatically enabled once you enable the module, and can't be disabled.  
