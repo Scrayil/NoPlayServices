@@ -17,7 +17,7 @@ So there won't be anymore an annoying warning and the applications won't close t
 "Global" means that once enabled all the installed applications that contains the Google APIs are targeted.  
 * You can freely change your targets without rebooting, as rebooting is necessary only while enabling or disabling the scope.  
 
-**NOTE:** Once you add or remove an application from the scope, you may not notice any change if the application is already open, close and reopen it to see the changes.  
+**Note:** Once you add or remove an application from the scope, you may not notice any change if the application is already open, close and reopen it to see the changes.  
 
 
 #### Edxposed:
@@ -26,7 +26,7 @@ If you prefere to enable the module only for certain applications:
 2. Enable the activation scope, choose the target applications and reboot your phone.  
 3. You can freely change your targets without rebooting, as rebooting is necessary only while enabling or disabling the scope.
 
-#### LsPosed:
+#### LSPosed:
 The activation scope is automatically enabled once you enable the module, and can't be disabled.  
 The only way to have a global scope is to select all applications as targets.
 
