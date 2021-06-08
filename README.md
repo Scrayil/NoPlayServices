@@ -14,7 +14,7 @@ So there won't be anymore an annoying warning and the applications won't close t
 ---
 ## Activation Scope (For this module)
 * The module has a global scope only if the **activation scope** is disabled.  
-"Global" means that once enabled all the installed applications that contains the Google APIs are targeted.  
+"Global" means that once the module has been enabled, all the installed applications that contains the Google APIs are targeted.  
 * You can freely change your targets without rebooting, as rebooting is necessary only while enabling or disabling the scope.  
 
 **Note:** Once you add or remove an application from the scope, you may not notice any change if the application is already open, close and reopen it to see the changes.  
